@@ -26,6 +26,8 @@ pip install Pillow
 
 ## Usage
 
+Open a command prompt in the directory of the main.py file, and your image. Then, use the following command with your own flags.
+
 ```
 python3 main.py INPUT_IMAGE OUTPUT_TXT [--cols N] [--name NAME] [--max-rows N] [--resample {nearest,box}] [--no-autocrop]
 ```
