@@ -51,7 +51,7 @@ python3 main.py --help
 | `--cols` | `30` | Width of the pixel grid, in characters. Row count is calculated automatically to preserve the subject's proportions. |
 | `--name` | *(none)* | Optional title written as the first line of the output file (e.g. `Flareon`) |
 | `--max-rows` | `18` | Caps how tall the grid can get. If the natural row count would exceed this, `--cols` is automatically reduced to compensate. Raise or lower this to match the preview box size of whatever editor you're pasting into. Set to `0` to disable the cap entirely. |
-| `--resample` | `nearest` | `nearest` picks one crisp color per cell — best for art that's already pixel-art style. `box` averages colors together — smoother, but can blur blocky source art. Use `box` for detailed/photographic art or line art with thin outlines, where `nearest` can look speckly. |
+| `--resample` | `nearest` | `nearest` picks one crisp color per cell, best for art that's already pixel-art style. `box` averages colors together which is smoother, but can blur blocky source art. Use `box` for detailed/photographic art or line art with thin outlines, where `nearest` can look speckly. |
 | `--no-autocrop` | off | Disables auto-cropping to the main subject. By default, the script detects the background color, crops tightly around whatever isn't background, and centers that in the output. Use this flag if you want the literal, uncropped image instead. |
 
 ## How it works
